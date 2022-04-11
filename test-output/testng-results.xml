@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-10T00:27:13 IST" name="Regression_Suite" finished-at="2022-04-10T00:30:57 IST" duration-ms="224286">
+    <groups>
+    </groups>
+    <test started-at="2022-04-10T00:27:13 IST" name="Regression Test cases" finished-at="2022-04-10T00:30:57 IST" duration-ms="224286">
+      <class name="com.eagle.TestCases.SetRegression">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.eagle.TestCases.SetRegression@5a56cdac]" started-at="2022-04-10T00:29:02 IST" name="launchApplication" finished-at="2022-04-10T00:29:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.eagle.TestCases.SetRegression@5a56cdac]" started-at="2022-04-10T00:29:02 IST" name="beforeClass" finished-at="2022-04-10T00:29:05 IST" duration-ms="2796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="DeletedSetSearch_NonOwner_Test()[pri:61, instance:com.eagle.TestCases.SetRegression@5a56cdac]" started-at="2022-04-10T00:29:05 IST" name="DeletedSetSearch_NonOwner_Test" description="Set stands deleted in Non-owner&#039;s list, if deleted by the owner" finished-at="2022-04-10T00:29:28 IST" duration-ms="22822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletedSetSearch_NonOwner_Test -->
+        <test-method signature="VerifyEntries_Test()[pri:62, instance:com.eagle.TestCases.SetRegression@5a56cdac]" started-at="2022-04-10T00:29:28 IST" name="VerifyEntries_Test" description="Verify entries of set" finished-at="2022-04-10T00:30:57 IST" duration-ms="89707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEntries_Test -->
+      </class> <!-- com.eagle.TestCases.SetRegression -->
+      <class name="com.eagle.TestCases.LoginRegression">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.eagle.TestCases.LoginRegression@611889f4]" started-at="2022-04-10T00:27:13 IST" name="launchApplication" finished-at="2022-04-10T00:27:25 IST" duration-ms="11800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.eagle.TestCases.LoginRegression@611889f4]" started-at="2022-04-10T00:27:25 IST" name="beforeClass" finished-at="2022-04-10T00:27:25 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="VerifyLoginPage_Test()[pri:0, instance:com.eagle.TestCases.LoginRegression@611889f4]" started-at="2022-04-10T00:27:25 IST" name="VerifyLoginPage_Test" description="Login with valid credentials" finished-at="2022-04-10T00:29:02 IST" duration-ms="97062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginPage_Test -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.eagle.TestCases.LoginRegression@611889f4]" started-at="2022-04-10T00:30:58 IST" name="closeApplication" finished-at="2022-04-10T00:30:59 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.eagle.TestCases.LoginRegression -->
+    </test> <!-- Regression Test cases -->
+  </suite> <!-- Regression_Suite -->
+</testng-results>
